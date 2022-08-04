@@ -2,6 +2,15 @@
 
 This is an official starter turborepo.
 
+```bash
+npx create-turbo@latest
+
+pnpm add -Dw @changesets/cli
+pnpm changeset init
+
+pnpm add -Dw @antfu/ni npm-run-all
+```
+
 ## What's inside?
 
 This turborepo uses [pnpm](https://pnpm.io) as a packages manager. It includes the following packages/apps:
