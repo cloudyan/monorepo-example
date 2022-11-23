@@ -2,6 +2,10 @@
   "name": "turborepo-basic-pnpm",
   "version": "0.0.0",
   "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
   "scripts": {
     "init": "ni",
     "build": "turbo run build",
